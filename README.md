@@ -10,13 +10,13 @@ This repository contains a collection of beginner-friendly Python mini projects 
 * **Currency Converter**
   - Variables
   - Type Casting
-*  **Fuel Cost & Distance Calculator 🚗**
-  - Variables
-  - Type Casting
-*  **Expense Tracker**
-  - Variables
-  - Type Casting
-  - List, Tuple, Dictionary, Set
+* **Fuel Cost & Distance Calculator 🚗**
+   - Variables
+   - Type Casting
+* **Expense Tracker**
+   - Variables
+   - Type Casting
+   - List, Tuple, Dictionary, Set
 
 
 ## 🛠️ Technologies Used
