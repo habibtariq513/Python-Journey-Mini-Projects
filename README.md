@@ -4,8 +4,20 @@ This repository contains a collection of beginner-friendly Python mini projects 
 
 ## 📂 Projects
 
-* **BMI Calculator** – Calculates your Body Mass Index based on height and weight.
-* *(Add more project descriptions here as you create them)*
+* **BMI Calculator**
+  - Variables
+  - Type Casting
+* **Currency Converter**
+  - Variables
+  - Type Casting
+*  **Fuel Cost & Distance Calculator 🚗**
+  - Variables
+  - Type Casting
+*  **Expense Tracker**
+  - Variables
+  - Type Casting
+  - List, Tuple, Dictionary, Set
+
 
 ## 🛠️ Technologies Used
 
