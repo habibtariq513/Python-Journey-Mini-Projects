@@ -5,19 +5,11 @@ This repository contains a collection of beginner-friendly Python mini projects 
 ## 📂 Projects
 
 * **BMI Calculator**
-  - Variables
-  - Type Casting
-* **Currency Converter**
-  - Variables
-  - Type Casting
-* **Fuel Cost & Distance Calculator 🚗**
-   - Variables
-   - Type Casting
-* **Expense Tracker**
-   - Variables
-   - Type Casting
-   - List, Tuple, Dictionary, Set
-
+* **Currency Converter**  
+* **Fuel Cost & Distance Calculator 🚗**   
+* **Expense Tracker**   
+* **Contact Book**   
+* **Grocery Shopping List Organizer**   
 
 ## 🛠️ Technologies Used
 
