@@ -10,6 +10,8 @@ This repository contains a collection of beginner-friendly Python mini projects 
 * **Expense Tracker**   
 * **Contact Book**   
 * **Grocery Shopping List Organizer**   
+* **Student Report Project**   
+* **🛒 Simple Grocery Billing System 🛒**   
 
 ## 🛠️ Technologies Used
 
