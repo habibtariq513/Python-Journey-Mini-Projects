@@ -12,6 +12,7 @@ This repository contains a collection of beginner-friendly Python mini projects 
 * **Grocery Shopping List Organizer**   
 * **Student Report Project**   
 * **🛒 Simple Grocery Billing System 🛒**   
+* **🎬 Movie Ticket Booking System 🎬**   
 
 ## 🛠️ Technologies Used
 
