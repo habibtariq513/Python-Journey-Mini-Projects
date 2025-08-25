@@ -13,6 +13,9 @@ This repository contains a collection of beginner-friendly Python mini projects 
 * **Student Report Project**   
 * **🛒 Simple Grocery Billing System 🛒**   
 * **🎬 Movie Ticket Booking System 🎬**   
+* **Number Guessing Game**   
+* **Random Password Generator**   
+* **Fizz Buzz Theory**   
 
 ## 🛠️ Technologies Used
 
