@@ -16,6 +16,7 @@ This repository contains a collection of beginner-friendly Python mini projects 
 * **Number Guessing Game**   
 * **Random Password Generator**   
 * **Fizz Buzz Theory**   
+* **File Handling Project**   
 
 ## 🛠️ Technologies Used
 
