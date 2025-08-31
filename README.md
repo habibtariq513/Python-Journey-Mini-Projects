@@ -17,6 +17,7 @@ This repository contains a collection of beginner-friendly Python mini projects 
 * **Random Password Generator**   
 * **Fizz Buzz Theory**   
 * **File Handling Project**   
+* **PDF Merger Project**   
 
 ## 🛠️ Technologies Used
 
