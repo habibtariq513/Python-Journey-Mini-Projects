@@ -1,14 +1,3 @@
-# ========================== Important Notes =========================
-# 1. Ensure that the PyPDF2 library is installed in your Python environment. You can install it using pip:
-#    'pip install PyPDF2'
-# 2. This script merges PDF files in the order they are provided by the user.
-# 3. The merged PDF will be saved in the current working directory with the name 'Merged_PDF.pdf'.
-# 4. If a specified PDF file does not exist in the current directory, the script will notify the user and exit.
-
-# Use sets for faster duplicate checking, and avoid exiting on a single error.
-# Collect all valid PDFs, then merge them at once.
-
-
 from PyPDF2 import PdfWriter
 from pathlib import Path
 
@@ -21,24 +10,36 @@ def file_folder_path():
 
 merger = PdfWriter() 
 pdfs = []
+duplicates = set()
+path = Path('')         
+items = list(path.rglob('*'))           # List all files and folders in the current directory
 
 # ========================================== File Input Section ==========================================
 
 print("\n================================== Welcome to PDF Merger! ==================================")
 try:
     total_pdfs = int(input("\nHow many PDFs do you want to merge: "))
-    for pdf in range(total_pdfs):
+    if total_pdfs > len(items)-1:  # Exclude the script file itself
+        print(f"\n\t**** OOPS! Your Directory has just {len(items) - 1} PDFs. Try again ****")
+        exit()
+        
+    while range(total_pdfs):
         print("\nCurrent Directory Files and Folders:")
         file_folder_path()                                  # Display current directory files and folders        
         pdf = input("\nEnter PDF name: ")
         p = Path(pdf)
-        if p.exists() and pdf not in pdfs:                            # Check if the file exists
-            pdfs.append(pdf)
-        else:
-            print("\n\t**** OOPS! File does NOT exist or It has already been added. Try again ****")
-            exit()
+        if not p.exists():                                  # Check if the file exists
+            print(f"\n\t**** OOPS! {pdf} does NOT exist. Try again ****")
+            continue
+        if pdf in duplicates:                                 # Check for duplicates
+            print(f"\n\t**** OOPS! {pdf} has already been Added. Try again ****")
+            continue
+        pdfs.append(pdf)
+        duplicates.add(pdf)        
 except Exception as err:
     print(f"\nError occurred due to {err}\n")
+
+
 
 # ========================================== Merging Section ===============================================
 print("\nMerging PDFs...")
