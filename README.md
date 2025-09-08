@@ -18,6 +18,7 @@ This repository contains a collection of beginner-friendly Python mini projects 
 * **Fizz Buzz Theory**   
 * **File Handling Project**   
 * **PDF Merger Project**   
+* **To-Do List Project**   
 
 ## 🛠️ Technologies Used
 
